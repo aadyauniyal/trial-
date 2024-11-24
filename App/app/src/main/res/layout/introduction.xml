@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/planetze_bg_real">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/introTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carbon Footprint Calculator"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/navy"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Introduction Message -->
+    <TextView
+        android:id="@+id/introMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's get started! We will calculate your current carbon footprint based on your lifestyle. You only need to do this once."
+        android:textSize="16sp"
+        android:textColor="@color/charcoal"
+        android:layout_marginBottom="30dp"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center" />
+
+    <!-- Note Section -->
+    <TextView
+        android:id="@+id/introNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💡 Note: This setup only needs to be done once, unless you choose to recalculate later."
+        android:textSize="14sp"
+        android:textColor="@color/teal"
+        android:gravity="center" />
+
+    <!-- Button to Start -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textColor="#ffffff"
+        android:backgroundTint="@color/navy"
+        android:layout_marginTop="30dp"
+        android:padding="12dp" />
+
+</LinearLayout>
